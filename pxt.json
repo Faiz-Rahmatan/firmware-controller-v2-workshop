@@ -1,0 +1,41 @@
+{
+    "name": "Firmware Controller v2 Workshop",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.28",
+        "tag": "v6.0.28",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9d308fa3c282191768670a6558e4df8af2d715cf",
+        "target": "9.0.8",
+        "pxt": "9.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
